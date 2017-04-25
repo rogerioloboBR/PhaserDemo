@@ -5,7 +5,8 @@ demo.state0.prototype = {
     create: function(){
         game.stage.backgroundColor ='#660066';
         console.log('state0');
-        addChangeStateEventListener()
+        addChangeStateEventListener();
+        game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
     },
     update: function(){}
 };
